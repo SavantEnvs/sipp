@@ -1,0 +1,10 @@
+project: savantenvs/sipp
+target: fuzz_auth
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_auth/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_auth
+    libfuzzer: true
+    timeout: 60
+    dictionary: /mayhem/mayhem/fuzz_auth/fuzz_auth.dict

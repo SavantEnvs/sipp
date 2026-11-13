@@ -1,0 +1,9 @@
+project: savantenvs/sipp
+target: fuzz_infile
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_infile/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_infile @@
+    timeout: 60
+    dictionary: /mayhem/mayhem/fuzz_infile/fuzz_infile.dict

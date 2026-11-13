@@ -1,0 +1,9 @@
+GET /sip HTTP/1.1
+Host: example.org
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==
+Sec-WebSocket-Protocol: sip
+Sec-WebSocket-Version: 13
+
+\!…7ú!=G›SI\!€…7ú!=G›SI\!

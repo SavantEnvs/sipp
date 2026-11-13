@@ -1,0 +1,5 @@
+MESSAGE sip:a@b SIP/2.0
+Call-ID: [call_id]
+X-Pid: [pid] [authentication algorithm=SHA-256 username=bob password=pw]
+X-File: [cseq] [msg_index] [timestamp]
+

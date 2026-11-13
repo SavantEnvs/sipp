@@ -1,0 +1,9 @@
+ACK sip:[service]@[remote_ip]:[remote_port] SIP/2.0
+[last_Via:]
+[last_From:]
+[last_To:]
+Call-ID: [call_id]
+CSeq: [cseq] ACK
+[routes]
+Content-Length: 0
+

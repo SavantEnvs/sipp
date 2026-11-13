@@ -1,0 +1,9 @@
+REGISTER sip:[remote_ip] SIP/2.0
+Via: SIP/2.0/[transport] [local_ip]:[local_port]
+From: <sip:alice@[remote_ip]>;tag=[call_number]
+To: <sip:alice@[remote_ip]>
+Call-ID: [call_id]
+CSeq: 2 REGISTER
+[authentication username=alice password=secret]
+Content-Length: 0
+
